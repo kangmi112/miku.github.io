@@ -1,8 +1,10 @@
-/* di        白底 
-/* box-big   区块 */
-/* h1        标题 */
-/* left-line 正文 */
-/* hengxian  上下横线 */
+/* di           白底 */
+/* box-big      区块 */
+/* h1           标题 */
+/* left-line    正文 */
+/* hengxian     上下横线 */
+/* di-button    按钮区域 */
+/* button-small 右下角小按钮 */
 body {
   z-index: top;
   margin: 0;
@@ -18,8 +20,11 @@ b {
 h1 {
   position: relative;
   left: 15px;
-  bottom: 0;
+  bottom: 0.2em;
   display: flex;
+}
+p {
+  margin: 0.1em;
 }
 .top {
   font-size: 10px;
@@ -79,5 +84,22 @@ h1 {
   flex-direction: column;
 }
 .box-big {
-  margin-top: -10px;
+  display: block;
+}
+.di-button {
+  width: 90%;
+  margin: auto;
+}
+.button-small {
+  position: relative;
+  z-index: 2;
+  left: 0;
+  height: 1.8em;
+  width: 8.5em;
+  border-radius: 0.35em;
+  background-color: rgb(238, 148, 163);
+  border: none;
+  float: right;
+  font-weight: bolder;
+  color: rgb(99, 17, 30);
 }
