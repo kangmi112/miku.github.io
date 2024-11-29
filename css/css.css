@@ -22,6 +22,7 @@ h1 {
   left: 15px;
   bottom: 0.2em;
   display: flex;
+  margin-bottom: 0;
 }
 p {
   margin: 0.1em;
@@ -102,4 +103,9 @@ p {
   float: right;
   font-weight: bolder;
   color: rgb(99, 17, 30);
+}
+@media (min-width: 800px) {
+  body {
+    background-image: url("https://www.helloimg.com/i/2024/11/29/6749e0b822498.jpg");
+  }
 }
