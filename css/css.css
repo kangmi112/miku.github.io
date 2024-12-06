@@ -27,37 +27,38 @@ h1 {
 p {
   margin: 0.1em;
 }
+a {
+  text-decoration: none;
+  color: rgb(65, 162, 231);
+}
 .top {
-  font-size: 10px;
-  margin: o;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 55px;
-  background-color: rgb(194, 107, 122);
+  height: 50px;
+  background-color: #fbb;
   z-index: 99999;
-  display: flex;
   font-size: 12px;
 }
 .son {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 15px;
   margin: auto;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12.5px;
   display: flex;
   justify-content: center;
 }
 .di {
   margin: 15px;
   flex: 1;
-  width: 90%;
-  background-color: rgba(255, 250, 250, 0.582);
+  width: 87%;
+  background-color: rgba(255, 255, 255, 0.616);
   margin: 15px auto;
   position: relative;
   backdrop-filter: blur(4px);
+  border-radius: 0.35em;
 }
 .biaoti {
   left: 0;
@@ -67,15 +68,6 @@ p {
   text-indent: -8%;
   font-size: 12px;
 }
-.hengxian {
-  width: 100%;
-  height: 5px;
-  background-color: rgb(237, 100, 123);
-  display: flex;
-  margin: auto;
-  display: block;
-}
-
 .left-line {
   border-left-color: rgb(239, 107, 107);
   border-left-style: solid;
@@ -85,11 +77,19 @@ p {
   display: flex;
   flex-direction: column;
 }
+.dian {
+  margin: 22px;
+  display: flex;
+  flex-direction: column;
+}
 .box-big {
   display: block;
 }
+.box-top {
+  padding-top: 0.6em;
+}
 .di-button {
-  width: 90%;
+  width: 87%;
   margin: auto;
 }
 .button-small {
@@ -99,11 +99,14 @@ p {
   height: 1.8em;
   width: 8.5em;
   border-radius: 0.35em;
-  background-color: rgb(238, 148, 163);
+  background-color: #fbb;
   border: none;
   float: right;
-  font-weight: bolder;
-  color: rgb(99, 17, 30);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s ease;
+}
+.button-small:active {
+  background-color: rgb(241, 154, 168);
 }
 @media (min-width: 800px) {
   body {
@@ -112,4 +115,7 @@ p {
   .di {
     backdrop-filter: blur(6px);
   }
+}
+li::marker {
+  color: rgb(239, 107, 107);
 }
