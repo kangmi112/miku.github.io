@@ -8,7 +8,7 @@ function password() {
 
     if (pass1 == "我自凯旋") {
       alert("密码正确!");
-      location.href = "photo.html";
+      location.href = "xphoto.html";
       break;
     }
 
