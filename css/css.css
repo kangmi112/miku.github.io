@@ -1,10 +1,11 @@
-/* di           白底 */
-/* box-big      区块 */
-/* h1           标题 */
-/* left-line    正文 */
-/* hengxian     上下横线 */
-/* di-button    按钮区域 */
-/* button-small 右下角小按钮 */
+/* .di           白底 */
+/* .box-big      区块 */
+/* h1            标题 */
+/* .left-line    正文 */
+/* .hengxian     上下横线 */
+/* .di-button    按钮区域 */
+/* .button-small 右下角小按钮 */
+/* .p-small      小字 */
 body {
   z-index: top;
   margin: 0;
@@ -100,6 +101,10 @@ img {
 .di-button {
   width: 87%;
   margin: auto;
+}
+.p-small {
+  font-size: 12px;
+  margin: 0;
 }
 .button-small {
   position: relative;
