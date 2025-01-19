@@ -7,6 +7,7 @@
   height: 12em;
 }
 input {
+  color: white;
   border: 0;
   border-bottom: 2px solid #d43744;
   padding: 4px 2px;
