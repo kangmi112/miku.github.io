@@ -8,7 +8,7 @@
 }
 input {
   border: 0;
-  border-bottom: 2px solid rgb(241, 154, 168);
+  border-bottom: 2px solid #d43744;
   padding: 4px 2px;
   display: block;
   background: 0;
@@ -23,7 +23,7 @@ input {
 span {
   margin-left: -50px;
   margin-right: 10px;
-  color: rgb(241, 154, 168);
+  color: #d43744;
   border-radius: 50%;
   height: 40px;
   width: 40px;

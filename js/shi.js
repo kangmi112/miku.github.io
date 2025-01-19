@@ -6,7 +6,7 @@ function change() {
     // 此时按钮为✘，点击后变为✔，清空输入的内容
     youshi = false;
     anNiu.innerText = "✔";
-    shurukuang.style.borderBottomColor = "rgb(241, 154, 168)";
+    shurukuang.style.borderBottomColor = "#d43744";
     shurukuang.value = "";
     shurukuang.readOnly = false;
     window.localStorage.removeItem("shi");

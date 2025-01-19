@@ -17,6 +17,7 @@ body {
 }
 b {
   margin-bottom: 4px;
+  color: white;
 }
 h1 {
   position: relative;
@@ -24,9 +25,11 @@ h1 {
   bottom: 0.2em;
   display: flex;
   margin-bottom: 0;
+  color: white;
 }
 p {
   margin: 0.1em;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -40,7 +43,7 @@ img {
   top: 0;
   width: 100%;
   height: 50px;
-  background-color: #fbb;
+  background-color: #6f2c32;
   z-index: 99999;
   font-size: 12px;
 }
@@ -53,13 +56,14 @@ img {
   padding-top: 12.5px;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .di {
   margin: 15px;
   flex: 1;
   width: 87%;
   height: calc(+ 30px);
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: rgba(0, 0, 0, 0.623);
   margin: 15px auto;
   position: relative;
   backdrop-filter: blur(4px);
@@ -67,14 +71,14 @@ img {
 }
 .biaoti {
   left: 0;
-  border-bottom: 2px solid rgb(239, 107, 107);
+  border-bottom: 2px solid #d43744;
   width: calc(100% - 30px);
   margin: auto;
   text-indent: -8%;
   font-size: 12px;
 }
 .left-line {
-  border-left-color: rgb(239, 107, 107);
+  border-left-color: #d43744;
   border-left-style: solid;
   border-left-width: 2px;
   padding-left: 10px;
@@ -113,7 +117,7 @@ img {
   height: 1.8em;
   width: 8.5em;
   border-radius: 0.35em;
-  background-color: #fbb;
+  background-color: #6f2c32;
   border: none;
   float: right;
   color: rgb(255, 255, 255);
@@ -122,14 +126,24 @@ img {
 .button-small:active {
   background-color: rgb(241, 154, 168);
 }
+li::marker {
+  color: #d43744;
+}
 @media (min-width: 800px) {
   body {
     background-image: url("https://www.helloimg.com/i/2024/11/29/6749e0b822498.jpg");
   }
-  .di {
-    backdrop-filter: blur(6px);
+  .top {
+    background-color: #a03d46;
   }
-}
-li::marker {
-  color: rgb(239, 107, 107);
+  .di {
+    backdrop-filter: blur(1em);
+    background-color: rgba(0, 0, 0, 0.527);
+  }
+  .biaoti {
+    border: none;
+  }
+  h1 {
+    bottom: 0;
+  }
 }
