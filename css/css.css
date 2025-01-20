@@ -63,7 +63,7 @@ img {
   flex: 1;
   width: 87%;
   height: calc(+ 30px);
-  background-color: rgba(0, 0, 0, 0.623);
+  background-color: rgba(46, 19, 19, 0.623);
   margin: 15px auto;
   position: relative;
   backdrop-filter: blur(4px);
@@ -131,19 +131,24 @@ li::marker {
 }
 @media (min-width: 800px) {
   body {
-    background-image: url("https://www.helloimg.com/i/2024/11/29/6749e0b822498.jpg");
+    background-image: url("https://www.helloimg.com/i/2025/01/20/678ddfa962cbf.jpg");
   }
   .top {
     background-color: #a03d46;
   }
   .di {
     backdrop-filter: blur(1em);
-    background-color: rgba(0, 0, 0, 0.527);
   }
   .biaoti {
     border: none;
   }
   h1 {
     bottom: 0;
+  }
+  .left-line {
+    margin-top: 12px;
+  }
+  .dian {
+    margin-top: 12px;
   }
 }
