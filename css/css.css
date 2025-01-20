@@ -129,7 +129,7 @@ img {
 li::marker {
   color: #d43744;
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   body {
     background-image: url("https://www.helloimg.com/i/2025/01/20/678ddfa962cbf.jpg");
   }
