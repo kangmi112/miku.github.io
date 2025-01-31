@@ -1,1 +1,2 @@
-this is a web
+这是一个班级网站，代码和线上部署都是我负责哦
+网址:mikukm.fun
