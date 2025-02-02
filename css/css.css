@@ -1,4 +1,4 @@
-/* .di           白底 */
+/* .di           底 */
 /* .box-big      区块 */
 /* h1            标题 */
 /* .left-line    正文 */
@@ -6,12 +6,17 @@
 /* .di-button    按钮区域 */
 /* .button-small 右下角小按钮 */
 /* .p-small      小字 */
+
+/* 标签 */
 body {
   z-index: top;
   margin: 0;
   width: 100%;
   height: 100vh;
   background-image: url("https://www.helloimg.com/i/2025/01/19/678c5f334f472.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -31,13 +36,28 @@ p {
   margin: 0.1em;
   color: white;
 }
-a {
-  text-decoration: none;
-  color: rgb(65, 162, 231);
-}
 img {
   margin-top: 10px;
 }
+/* <a> */
+a {
+  width: fit-content;
+  text-decoration: none;
+  color: rgb(90, 170, 230);
+  background-image: linear-gradient(rgb(90, 170, 230), rgb(90, 170, 230));
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0 1px;
+  transition: background-size 0.3s ease-in-out normal 0s;
+  cursor: pointer;
+}
+a:hover {
+  background-size: 100% 1px;
+}
+a:active {
+  color: rgb(120, 199, 255);
+}
+/* class */
 .top {
   position: fixed;
   top: 0;
@@ -129,6 +149,7 @@ img {
 li::marker {
   color: #d43744;
 }
+/* 不同端适配 */
 @media (min-width: 768px) {
   body {
     background-image: url("https://www.helloimg.com/i/2025/01/20/678ddfa962cbf.jpg");
