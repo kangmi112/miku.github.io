@@ -112,9 +112,9 @@ a:active {
   flex-direction: column;
 }
 .dian {
-  margin: 22px;
   margin-left: 40px;
   display: flex;
+  margin: 22px;
   flex-direction: column;
 }
 .box-big {
