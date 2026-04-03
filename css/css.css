@@ -113,6 +113,7 @@ a:active {
 }
 .dian {
   margin: 22px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
 }
