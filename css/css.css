@@ -152,6 +152,7 @@ li::marker {
   color: #d43744;
 }
 /* 不同端适配 */
+/*mobile*/
 @media (min-width: 768px) {
   body {
     background-image: url("https://www.helloimg.com/i/2025/01/20/678ddfa962cbf.jpg");
@@ -173,5 +174,11 @@ li::marker {
   }
   .dian {
     margin-top: 12px;
+  }
+  /* 针对Chrome浏览器 */
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+    .dian {
+      padding-left: 0px;
+    }
   }
 }
