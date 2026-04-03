@@ -113,7 +113,7 @@ a:active {
 }
 /* .dian 更新*/
 .dian {
-  padding-left: 14px;
+  padding-left: 16px;
   margin: 22px;
   display: flex;
   flex-direction: column;
@@ -174,6 +174,7 @@ li::marker {
   }
   .dian {
     margin-top: 12px;
+    padding-left: 12px;
   }
   /* 针对Chrome浏览器 */
   @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
